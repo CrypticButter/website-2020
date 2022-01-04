@@ -1,0 +1,39 @@
+{
+    "extends": "@quasar/app/tsconfig-preset",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "lib": [
+            "es2020.string",
+            "DOM"
+        ],
+        "paths": {
+            "src/*": [
+                "src/*"
+            ],
+            "app/*": [
+                "*"
+            ],
+            "components/*": [
+                "src/components/*"
+            ],
+            "layouts/*": [
+                "src/layouts/*"
+            ],
+            "pages/*": [
+                "src/pages/*"
+            ],
+            "assets/*": [
+                "src/assets/*"
+            ],
+            "boot/*": [
+                "src/boot/*"
+            ],
+            "api/*": [
+                "src/api/*"
+            ],
+            "utils/*": [
+                "src/utils/*"
+            ]
+        }
+    },
+}

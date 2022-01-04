@@ -1,0 +1,49 @@
+/* baloo-2-regular - latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo 2 Regular'), local('Baloo2-Regular'),
+       url('baloo-2/baloo-2-v1-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('baloo-2/baloo-2-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* baloo-2-500 - latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Baloo 2 Medium'), local('Baloo2-Medium'),
+       url('baloo-2/baloo-2-v1-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('baloo-2/baloo-2-v1-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* baloo-2-600 - latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Baloo 2 SemiBold'), local('Baloo2-SemiBold'),
+       url('baloo-2/baloo-2-v1-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('baloo-2/baloo-2-v1-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* baloo-2-700 - latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Baloo 2 Bold'), local('Baloo2-Bold'),
+       url('baloo-2/baloo-2-v1-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('baloo-2/baloo-2-v1-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* baloo-2-800 - latin */
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Baloo 2 ExtraBold'), local('Baloo2-ExtraBold'),
+       url('baloo-2/baloo-2-v1-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('baloo-2/baloo-2-v1-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

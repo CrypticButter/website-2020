@@ -1,0 +1,120 @@
+// app global css in Sass form
+html
+    font-size: 62.5%
+
+body
+    font-family: Cabin
+    font-size: 1.6rem
+
+a
+    color: #005C9E
+    text-decoration: none
+
+    &:hover
+        text-decoration: underline
+
+a:hover.q-btn
+    text-decoration: none
+
+.heading-anchor-button
+    margin-left: -25px
+    padding-right: 1px
+    text-decoration: none
+
+.heading-anchor-icon
+    color: grey
+    visibility: hidden
+    margin-bottom: 4px
+    font-size: 24px
+
+h2:hover .heading-anchor-icon, h3:hover .heading-anchor-icon, h4:hover .heading-anchor-icon, h5:hover .heading-anchor-icon, h6:hover .heading-anchor-icon, .heading-anchor-button:hover .heading-anchor-icon
+    visibility: visible
+
+.heading-anchor-button:hover
+    text-decoration: none
+
+.anchored-heading
+
+.text-overline
+    font-size: 1.2rem
+    font-family: "Baloo 2"
+
+.text-body2
+    font-size: 1.4rem
+
+.page-content-container
+    margin: 0 auto
+    font-size: 1.8rem
+
+.q-drawer
+    background: transparent
+
+h1, h2, h3, h4, h5, h6
+    clear: both
+    margin: 1.5em 0 0.5em 0
+    line-height: 1.3
+    color: #703A08
+    font-family: "PT Sans"
+    font-weight: bold
+    margin: 60px 0 -12px
+
+h1
+    font-size: 3.4em
+
+h2
+    font-size: 3.2rem
+
+h3
+    font-size: 2.8rem
+
+h4
+    font-size: 2.4rem
+    font-weight: 750
+
+h5
+    font-size: 2.2rem
+    font-weight: 750
+
+h6
+    font-size: 2.0rem
+    font-weight: 750
+
+hr
+    border-top: 1px solid #ddd
+    border-bottom: none
+
+p
+    margin: 25px 0
+
+blockquote
+    font-style: italic
+    font-size: 2rem
+
+    &.wp-block-pullquote
+        border-width: 5px 0
+        border-style: double
+        border-color: #999034
+        padding: 2.5em 0
+        font-family: Cormorant Garamond
+
+    p
+        &:first-child
+            margin-top: 0
+
+            color: #999034
+
+@media screen and (max-width: $breakpoint-xs-max)
+    &.page-content-container
+        //padding: 0 5%
+
+// Laptops and medium screens - 1024px and wider
+@media screen and (min-width: $breakpoint-sm-min)
+
+    &.page-content-container
+        max-width: 80rem
+
+// Large screens - 1920px and wider
+@media screen and (min-width: $breakpoint-lg-min)
+
+    &.page-content-container
+        max-width: 94rem
